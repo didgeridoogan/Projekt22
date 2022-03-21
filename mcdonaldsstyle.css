@@ -1,0 +1,89 @@
+/* Vanlig text */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #9fb8ad;
+  font-family: "Inter", sans-serif;
+  color: #3f403f;
+}
+
+h1 {
+  background-color: white;
+  font-style: italic;
+  border: solid;
+  border-color: #3f403f;
+  border-bottom: none;
+  margin-bottom: 0vh;
+  font-size: 5.7vh;
+  padding: 2vh;
+  padding-bottom: 0;
+  padding-left: 4vh;
+}
+
+h2 {
+  background-color: white;
+  border: solid;
+  border-color: #3f403f;
+  border-top: none;
+  font-size: 8vh;
+  font-weight: 350;
+  margin-top: 0;
+  padding: 2vh;
+  padding-top: 0;
+  padding-left: 4vh;
+}
+
+.NK {
+  border: solid;
+  border-color: #3f403f;
+  width: min-content;
+}
+
+h4 {
+  background-color: white;
+  border: solid;
+  border-color: #3f403f;
+  font-size: 3vh;
+  padding: 3vh;
+  margin-bottom: 0;
+}
+
+h5 {
+  background-color:  #468a46;
+  color:white;
+  border: solid;
+  border-color: #3f403f;
+  font-size: 3vh;
+  padding: 3vh;
+  margin-top: 0;
+  margin-bottom: 0;}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+  border: solid;
+  border-color: #3f403f;
+  font-size: 2.8vh;
+  padding: 2vh;
+  padding-left: 5vh;
+}
+
+p {
+  margin-top: 0;
+  background-color: white;
+  border: solid;
+  border-top: 0;
+  border-color: #3f403f;
+  font-size: 2.5vh;
+  padding: 3vh;
+}
+
+.info-box {
+  border: none;
+}
+
+.griddy {
+  display: grid;
+  grid-auto-flow: column;
+}

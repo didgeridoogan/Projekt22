@@ -1,0 +1,47 @@
+/* Vanlig text */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #9FB8AD;
+}
+
+h1 {
+  font-size: 8vh;
+  font-family: "Inter", sans-serif;
+  color: #3f403f;
+  text-align: center;
+  background-color: white;
+  border: solid;
+  border-color: #3f403f;
+  border-width: 0.4vh;
+  border-left: none;
+  border-right: none;
+}
+
+.options {
+  font-size: 7vh;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+button {
+  font-size: 7vh;
+  width: 50vh;
+  height: 20vh;
+  margin-bottom: 3vh;
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  border-color: #3f403f;
+  border-width: 0.4vh;
+}
+
+button:hover {
+  background-color: #5d944b;
+  color: white;
+}

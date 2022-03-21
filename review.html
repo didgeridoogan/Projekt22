@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="review.css" />
+    <script defer src="rating.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="stars">
+      </div>
+      <label>
+        <input
+          type="range"
+          name="rating"
+          class="rating-slider"
+          min="0"
+          max="5"
+          value="0"
+        />
+        <span class="rating-text">Horrible</span>
+      </label>
+    </div>
+      <div class="user-text">
+        <label>
+          <input required type="text" name="username" placeholder=" " />
+        </label>
+      <button>Leave review</button>
+    </div>
+  </body>
+</html>
